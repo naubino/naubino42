@@ -1,8 +1,9 @@
-import { ArenaMode } from "./arena-mode"
-import { Naubino } from "./naubino"
-import { Vector } from "./matter-js"
 import { assert } from "chai"
-import * as _ from "lodash"
+import * as _ from "lodash";
+
+import { ArenaMode } from "../src/arena-mode"
+import { Naubino } from "../src/naubino"
+import { Vector } from "../src/matter-js"
 
 
 describe("ArenaMode", function () {

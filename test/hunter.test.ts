@@ -1,7 +1,8 @@
-import { Hunter } from "./hunter"
-import { Naubino } from "./naubino"
-import { WorldState } from "./matter-js"
 import { assert } from "chai"
+
+import { Hunter } from "../src/hunter"
+import { Naubino } from "../src/naubino"
+import { WorldState } from "../src/matter-js"
 
 
 class ScenarioPopNaubChainsClearsNaubino {

@@ -1,6 +1,6 @@
-import { Timer } from "./timer"
-
 import { assert } from "chai"
+import { Timer } from "../src/timer"
+
 
 describe("Timer", function () {
     const interval = 1

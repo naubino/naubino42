@@ -1,9 +1,8 @@
-import { PointerSystem, Naub, Pointer, Naubino } from "./naubino"
-import { Vector, Matter } from "./matter-js"
-
 import * as _ from "lodash"
 import { assert } from "chai"
 
+import { PointerSystem, Naub, Pointer, Naubino } from "../src/naubino"
+import { Vector, Matter } from "../src/matter-js"
 
 describe("PointerSystem", function () {
     let naubino: Naubino
