@@ -31,7 +31,8 @@
   "scripts": {
     "build": "tsc",
     "webpack": "webpack",
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "format": "yarn prettier --write src/**/*.ts test/**/*.ts"
   },
   "nyc": {
     "extension": [
