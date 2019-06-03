@@ -5,7 +5,7 @@ import { PointerSystem, Pointer } from "./pointer-system"
 import { NaubFactory } from "./naub-factory"
 
 import * as _ from "lodash"
-import { EventEmitter } from "eventemitter3"
+import EventEmitter from "eventemitter3"
 
 export { Pointer, PointerSystem }
 

@@ -1,4 +1,4 @@
-import { EventEmitter } from "eventemitter3"
+import EventEmitter from "eventemitter3"
 
 export function fail_condition(condition: boolean): boolean {
     const throw_error = true
